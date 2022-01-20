@@ -1,0 +1,37 @@
+{
+  "el-button-default": {
+    "prefix": "el-but",
+    "body": ".el-button.el-button--default{\n\t$0\n}",
+    "description": "默认风格（默认按钮:default;主要按钮:primary;成功按钮:success;危险按钮:danger;信息按钮:info;警告按钮:warning;）"
+  },
+  "el-button-plain": {
+    "prefix": "el-but",
+    "body": ".el-button.el-button--default.is-plain{\n\t$0\n}",
+    "description": "朴素风格（默认按钮:default;主要按钮:primary;成功按钮:success;危险按钮:danger;信息按钮:info;警告按钮:warning;）"
+  },
+  "el-button-round": {
+    "prefix": "el-but",
+    "body": ".el-button.el-button--default.is-round{\n\t$0\n}",
+    "description": "圆角风格（默认按钮:default;主要按钮:primary;成功按钮:success;危险按钮:danger;信息按钮:info;警告按钮:warning;）"
+  },
+  "el-button-circle": {
+    "prefix": "el-but",
+    "body": ".el-button.el-button--default.is-circle{\n\t$0\n}",
+    "description": "圆形风格（默认按钮:default;主要按钮:primary;成功按钮:success;危险按钮:danger;信息按钮:info;警告按钮:warning;）"
+  },
+  "el-radio": {
+    "prefix": "el-rad",
+    "body": ".el-radio {\n\t.el-radio__input {\n\t\t$1\n\t}\n\t.el-radio__label {\n\t\t$0\n\t}\n}",
+    "description": "普通单选框"
+  },
+  "el-radio-border": {
+    "prefix": "el-rad",
+    "body": ".el-radio.is-bordered {\n\t.el-radio__input {\n\t\t$1\n\t}\n\t.el-radio__label {\n\t\t$0\n\t}\n}",
+    "description": "带边框单选框"
+  },
+  "el-checkbox": {
+    "prefix": "el-che",
+    "body": ".el-checkbox{\n\t.el-checkbox__input {\n\t\t$1\n\t}\n\t.el-checkbox__label {\n\t\t$0\n\t}\n\t&.is-checked{\n\t\t.el-checkbox__input.is-checked{/n\t\t\t.el-checkbox__inner{/n\t\t\t\t::after{/n\t\t\t\t}/n\t\t\t}/n\t\t}/n\t}/n}",
+    "description": "多选框，is-checked为选中后的样式"
+  }
+}
