@@ -2,6 +2,8 @@
   "name": "ElementUiScssStructure",
   "displayName": "Element-ui-scss-less-structure",
   "description": "element-ui scss(less) structure snippets for custom easily",
+  "publisher": "cooking_bird",
+  "license": "MIT",
   "version": "1.0.0",
   "repository": {
     "type": "git",
