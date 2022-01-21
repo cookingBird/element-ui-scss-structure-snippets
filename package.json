@@ -10,19 +10,33 @@
     "url": "https://github.com/cookingBird/element-ui-scss-structure-snippets.git"
   },
   "engines": {
-    "vscode": "^1.63.0"
-  },
-  "scripts": {
-    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Snippets"
   ],
+  "activationEvents": [
+    "onLanguage:vue",
+    "onLanguage:scss",
+    "onLanguage:less",
+    "onLanguage:jsx"
+  ],
   "contributes": {
     "snippets": [
       {
-        "language": "'vue','scss','less'",
+        "language": "vue",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "jsx",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
