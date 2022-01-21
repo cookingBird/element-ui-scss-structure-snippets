@@ -36,7 +36,7 @@
   },
   "el-dialog": {
     "prefix": "el-dia",
-    "body": ".el-dialog {\n\t.el-dialog__header {\n\t\t.el-dialog__title {\n\t\t\t$0\n\t\t}\n\t\t.el-dialog__headerbtn {\n\t\t}\n\t}\n\t.el-dialog__body {\n\t\t$1\n\t}\n\t.el-dialog__footer {\n\t\t$1\n\t}\n}",
+    "body": ".el-dialog__wrapper{\n.el-dialog {\n\t.el-dialog__header {\n\t\t.el-dialog__title {\n\t\t\t$0\n\t\t}\n\t\t.el-dialog__headerbtn {\n\t\t}\n\t}\n\t.el-dialog__body {\n\t\t$1\n\t}\n\t.el-dialog__footer {\n\t\t$1\n\t}\n}\n}",
     "description": "dialog弹窗"
   },
   "el-table-default": {
