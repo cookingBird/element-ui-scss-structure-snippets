@@ -34,9 +34,14 @@
     "body": ".el-checkbox{\n\t.el-checkbox__input {\n\t\t$0\n\t}\t.el-checkbox__label {\n\t\t$1\n\t}\n\t&.is-checked{\n\t\t.el-checkbox__input.is-checked{\n\t\t\t.el-checkbox__inner{\n\t\t\t\t&::after{\n\t\t\t\t\t$2\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}",
     "description": "多选框，is-checked为选中后的样式"
   },
-  "el-dia": {
-    "prefix": "el-che",
+  "el-dialog": {
+    "prefix": "el-dia",
     "body": ".el-dialog {\n\t.el-dialog__header {\n\t\t.el-dialog__title {\n\t\t\t$0\n\t\t}\n\t\t.el-dialog__headerbtn {\n\t\t}\n\t}\n\t.el-dialog__body {\n\t\t$1\n\t}\n\t.el-dialog__footer {\n\t\t$1\n\t}\n}",
     "description": "dialog弹窗"
+  },
+  "el-table-default": {
+    "prefix": "el-tab",
+    "body": ".el-table.el-table--fit.el-table--enable-row-hover {\n\t.el-table__header {\n\t\tthead.has-gutter {\n\t\t\t.el-table__cell {\n\t\t\t}\n\t\t}\n\t}\n\t.el-table__body {\n\t\ttr.el-table__row {\n\t\t\t.el-table__cell {\n\t\t\t}\n\t\t}\n\t}\n\t&.el-table--enable-row-hover{\n\t}\n}",
+    "description": "普通不带边框表格"
   }
 }
