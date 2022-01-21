@@ -18,19 +18,19 @@
     "snippets": [
       {
         "language": "vue",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "scss",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "less",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "jsx",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/snippets.json"
       }
     ]
   },
