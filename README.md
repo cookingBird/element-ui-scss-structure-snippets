@@ -12,8 +12,12 @@ VS Code element-ui scss(less) snippets
 
 ## Snippets
 
-### v1.0.3
+### v1.0.x
 
 - el-but -> el-button
 - el-rad -> el-radio
 - el-che -> el-checkbox
+
+### v1.1.x
+
+- el-dia -> el-dialog
