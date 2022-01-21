@@ -14,12 +14,6 @@
   "categories": [
     "Snippets"
   ],
-  "activationEvents": [
-    "onLanguage:vue",
-    "onLanguage:scss",
-    "onLanguage:less",
-    "onLanguage:jsx"
-  ],
   "contributes": {
     "snippets": [
       {
