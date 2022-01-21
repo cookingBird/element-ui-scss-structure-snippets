@@ -21,3 +21,7 @@ VS Code element-ui scss(less) snippets
 ### v1.1.x
 
 - el-dia -> el-dialog
+
+### v1.2.x
+
+-el-tab-> el-table
