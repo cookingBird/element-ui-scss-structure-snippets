@@ -31,7 +31,7 @@
   },
   "el-checkbox": {
     "prefix": "el-che",
-    "body": ".el-checkbox{\n\t.el-checkbox__input {\n\t\t$0\n\t}\t.el-checkbox__label {\n\t\t$1\n\t}\n\t&.is-checked{\n\t\t.el-checkbox__input.is-checked{\n\t\t\t.el-checkbox__inner{\n\t\t\t\t&::after{\n\t\t\t\t\t$2\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}",
+    "body": ".el-checkbox{\n\t.el-checkbox__input {\n\t\t.el-checkbox__inner{$0}\n\t}\t.el-checkbox__label {\n\t\t$1\n\t}\n\t&.is-checked{\n\t\t.el-checkbox__input.is-checked{\n\t\t\t.el-checkbox__inner{\n\t\t\t\t&::after{\n\t\t\t\t\t$2\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}",
     "description": "多选框，is-checked为选中后的样式"
   },
   "el-dialog": {
