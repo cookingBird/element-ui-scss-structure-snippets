@@ -43,5 +43,10 @@
     "prefix": "el-tab",
     "body": ".el-table.el-table--fit.el-table--enable-row-hover {\n\t.el-table__header {\n\t\tthead.has-gutter {\n\t\t\t.el-table__cell {\n\t\t\t}\n\t\t}\n\t}\n\t.el-table__body {\n\t\ttr.el-table__row {\n\t\t\t.el-table__cell {\n\t\t\t}\n\t\t}\n\t}\n\t&.el-table--enable-row-hover{\n\t}\n}",
     "description": "普通不带边框表格"
+  },
+  "el-select": {
+    "prefix": "el-sel",
+    "body": ".el-select.el-select--medium {\n\t.el-input.el-input--medium {\n\t}\n}\n.el-select-dropdown {\n\t.el-select-dropdown__wrap {\n\t\t.el-select-dropdown__list {\n\t\t\t.el-select-dropdown__item {\n\t\t\t\t&.hover {\n\t\t\t\t}\n\t\t\t\t&.selected {\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}",
+    "description": "select"
   }
 }
