@@ -24,4 +24,5 @@ VS Code element-ui scss(less) snippets
 
 ### v1.2.x
 
--el-tab-> el-table
+- el-tab-> el-table
+- el-sel-> el-select
