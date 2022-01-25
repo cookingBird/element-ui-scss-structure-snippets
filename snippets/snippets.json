@@ -46,7 +46,7 @@
   },
   "el-select": {
     "prefix": "el-sel",
-    "body": ".el-select.el-select--medium {\n\t.el-input.el-input--medium {\n\t}\n}\n.el-select-dropdown {\n\t.el-select-dropdown__wrap {\n\t\t.el-select-dropdown__list {\n\t\t\t.el-select-dropdown__item {\n\t\t\t\t&.hover {\n\t\t\t\t}\n\t\t\t\t&.selected {\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}",
+    "body": ".el-select.el-select--medium {\n\t.el-input.el-input--medium {\n\t}\n}\n.el-select-dropdown {\n\t.el-select-dropdown__wrap {\n\t\t.el-select-dropdown__list {\n\t\t\t.el-select-dropdown__item {\n\t\t\t\t&.hover {\n\t\t\t\t}\n\t\t\t\t&.selected {\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\t.popper__arrow {}\n}",
     "description": "select"
   }
 }
