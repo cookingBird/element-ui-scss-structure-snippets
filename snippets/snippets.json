@@ -48,5 +48,10 @@
     "prefix": "el-sel",
     "body": ".el-select.el-select--medium {\n\t.el-input.el-input--medium {\n\t}\n}\n.el-select-dropdown {\n\t.el-select-dropdown__wrap {\n\t\t.el-select-dropdown__list {\n\t\t\t.el-select-dropdown__item {\n\t\t\t\t&.hover {\n\t\t\t\t}\n\t\t\t\t&.selected {\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\t.popper__arrow {}\n}",
     "description": "select"
+  },
+  "el-cascader": {
+    "prefix": "el-cas",
+    "body": ".el-cascader.el-cascader--medium {\n\t.el-input.el-input--medium {\n\t}\n}\n  .el-cascader__dropdown {\n  \t.el-cascader-menu {\n  \t\t.el-cascader-menu__wrap {\n  \t\t\t.el-cascader-menu__list {\n  \t\t\t\t.el-cascader-node {\n  \t\t\t\t}\n  \t\t\t\t.el-icon-arrow-right.el-cascader-node__postfix {\n  \t\t\t\t}\n  \t\t\t}\n  \t\t}\n\t\t.el-scrollbar__bar.is-horizontal {\n\t\t}\n\t\t.el-scrollbar__bar.is-vertical {\n  \t\t}\n  \t}\n  }\n",
+    "description": "cascader级联选择器"
   }
 }
