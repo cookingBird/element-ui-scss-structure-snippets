@@ -1,3 +1,9 @@
 node_modules
 *.vsix
+
+# local env files
+
+
+
+# Editor directories and files
 ./snippets/test.scss
