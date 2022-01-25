@@ -26,3 +26,7 @@ VS Code element-ui scss(less) snippets
 
 - el-tab-> el-table
 - el-sel-> el-select
+
+### v1.3.x
+
+- el-cas -> el-cascader
