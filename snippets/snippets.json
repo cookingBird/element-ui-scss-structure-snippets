@@ -1,22 +1,22 @@
 {
   "el-button-default": {
     "prefix": "el-but",
-    "body": ".el-button.el-button--default{\n\t$0\n}",
+    "body": ".el-button.el-button--default{\n\t\t.el-icon-loading {\n$0\t}\n}\n}",
     "description": "默认风格（默认按钮:default;主要按钮:primary;成功按钮:success;危险按钮:danger;信息按钮:info;警告按钮:warning;）"
   },
   "el-button-plain": {
     "prefix": "el-but",
-    "body": ".el-button.el-button--default.is-plain{\n\t$0\n}",
+    "body": ".el-button.el-button--default.is-plain{\n\t\t.el-icon-loading {\n$0\t}\n}\n}",
     "description": "朴素风格（默认按钮:default;主要按钮:primary;成功按钮:success;危险按钮:danger;信息按钮:info;警告按钮:warning;）"
   },
   "el-button-round": {
     "prefix": "el-but",
-    "body": ".el-button.el-button--default.is-round{\n\t$0\n}",
+    "body": ".el-button.el-button--default.is-round{\n\t\t.el-icon-loading {\n$0\t}\n}\n}",
     "description": "圆角风格（默认按钮:default;主要按钮:primary;成功按钮:success;危险按钮:danger;信息按钮:info;警告按钮:warning;）"
   },
   "el-button-circle": {
     "prefix": "el-but",
-    "body": ".el-button.el-button--default.is-circle{\n\t$0\n}",
+    "body": ".el-button.el-button--default.is-circle{\n\t\t.el-icon-loading {\n$0\t}\n}\n}",
     "description": "圆形风格（默认按钮:default;主要按钮:primary;成功按钮:success;危险按钮:danger;信息按钮:info;警告按钮:warning;）"
   },
   "el-radio": {
