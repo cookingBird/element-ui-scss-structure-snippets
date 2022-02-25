@@ -22,17 +22,12 @@
   "el-radio": {
     "prefix": "el-rad",
     "body": ".el-radio {\n\t.el-radio__input {\n\t\t.el-radio__inner {\n\t\t}\n\t}\n\t.el-radio__label {\n\t}\n\t&.is-checked {\n\t}\n\t&.is-bordered {\n\t}\n\t&.is-focus {\n\t}\n\t&.is-disabled {\n\t}\n}",
-    "description": "普通单选框"
-  },
-  "el-radio-border": {
-    "prefix": "el-rad",
-    "body": ".el-radio{\n\t.el-radio__input {\n\t\t.el-radio__inner {\n\t\t}\n\t}\n\t.el-radio__label {\n\t}\n\t&.is-checked {\n\t}\n\t&.is-bordered {\n\t}\n\t&.is-focus {\n\t}\n\t&.is-disabled {\n\t}\n}",
-    "description": "带边框单选框"
+    "description": "单选框(is-border为带边框样式;is-checked为选中后的样式;is-disabled为禁用状态的样式;is-focus为focus样式)"
   },
   "el-checkbox": {
     "prefix": "el-che",
-    "body": ".el-checkbox{\n\t.el-checkbox__input {\n\t\t.el-checkbox__inner{$0}\n\t}\t.el-checkbox__label {\n\t\t$1\n\t}\n\t&.is-checked{\n\t\t.el-checkbox__input.is-checked{\n\t\t\t.el-checkbox__inner{\n\t\t\t\t&::after{\n\t\t\t\t\t$2\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}",
-    "description": "多选框，is-checked为选中后的样式"
+    "body": ".el-checkbox{\n\t.el-checkbox__input {\n\t\t&.is-checked {\n\t\t\t.el-checkbox__inner {\n\t\t\t\t&::after {\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t&.is-disabled {\n\t\t}\n\t\t&.is-indeterminate {\n\t\t}\n\t\t&.is-focus {\n\t\t}\n\t}\n\t.el-checkbox__label {\n\t}\n}",
+    "description": "多选框，(is-border为带边框样式;is-checked为选中后的样式;is-disabled为禁用状态的样式;is-focus为focus样式;is-indeterminate为indeterminate为true是的样式)"
   },
   "el-dialog": {
     "prefix": "el-dia",
@@ -46,7 +41,7 @@
   },
   "el-select": {
     "prefix": "el-sel",
-    "body": ".el-select.el-select--medium {\n\t.el-input.el-input--medium {\n\t}\n}\n.el-select-dropdown {\n\t.el-select-dropdown__wrap {\n\t\t.el-select-dropdown__list {\n\t\t\t.el-select-dropdown__item {\n\t\t\t\t&.hover {\n\t\t\t\t}\n\t\t\t\t&.selected {\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\t.popper__arrow {}\n}",
+    "body": ".el-select.el-select--medium {\n\t.el-input.el-input--medium {\n\t}\n.el-select-dropdown {\n\t.el-select-dropdown__wrap {\n\t\t.el-select-dropdown__list {\n\t\t\t.el-select-dropdown__item {\n\t\t\t\t&.hover {\n\t\t\t\t}\n\t\t\t\t&.selected {\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\t.popper__arrow {}\n}\n}",
     "description": "select"
   },
   "el-cascader": {
