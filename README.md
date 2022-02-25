@@ -30,3 +30,7 @@ VS Code element-ui scss(less) snippets
 ### v1.3.x
 
 - el-cas -> el-cascader
+
+### v1.3.4
+
+patch el-dia
