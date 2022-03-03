@@ -53,5 +53,15 @@
     "prefix": "el-cas",
     "body": ".el-cascader.el-cascader--medium {\n\t.el-input.el-input--medium {\n\t}\n}\n  .el-cascader__dropdown {\n  \t.el-cascader-menu {\n  \t\t.el-cascader-menu__wrap {\n  \t\t\t.el-cascader-menu__list {\n  \t\t\t\t.el-cascader-node {\n  \t\t\t\t}\n  \t\t\t\t.el-icon-arrow-right.el-cascader-node__postfix {\n  \t\t\t\t}\n  \t\t\t}\n  \t\t}\n\t\t.el-scrollbar__bar.is-horizontal {\n\t\t}\n\t\t.el-scrollbar__bar.is-vertical {\n  \t\t}\n  \t}\n  }\n",
     "description": "cascader级联选择器"
+  },
+  "el-autocomplete-body": {
+    "prefix": "el-aut",
+    "body": ".el-autocomplete.ELEMENT_CLASS {\n\t<el-input>\n}\n.el-autocomplete-suggestion.el-popper.POPPER_CLASS {\n\t.el-scrollbar {\n\t\t.el-autocomplete-suggestion__wrap.el-scrollbar__wrap {\n\t\t\tul.el-scrollbar__view.el-autocomplete-suggestion__list {\n\t\t\t\t> li {\n\t\t\t\t}\n\t\t\t\tli:hover {\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t.el-scrollbar__bar.is-horizontal {\n\t\t}\n\t\t.el-scrollbar__bar.is-vertical {\n\t\t}\n\t}\n\t.popper__arrow {\n\t}\n}\n",
+    "description": "el-autocomplete append-to-body = true"
+  },
+  "el-autocomplete": {
+    "prefix": "el-aut",
+    "body": ".el-autocomplete.ELEMENT_CLASS {\n\t<el-input>\n\t.el-autocomplete-suggestion.el-popper.POPPER_CLASS {\n\t.el-scrollbar {\n\t\t.el-autocomplete-suggestion__wrap.el-scrollbar__wrap {\n\t\t\tul.el-scrollbar__view.el-autocomplete-suggestion__list {\n\t\t\t\t> li {\n\t\t\t\t}\n\t\t\t\tli:hover {\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\t.el-scrollbar__bar.is-horizontal {\n\t\t}\n\t\t.el-scrollbar__bar.is-vertical {\n\t\t}\n\t}\n\t.popper__arrow {\n\t}\n}\n}\n",
+    "description": "el-autocomplete append-to-body = false"
   }
 }
